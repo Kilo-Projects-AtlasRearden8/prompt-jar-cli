@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prompt-jar"
+version = "0.1.0"
+description = "Save, tag, search, fill, and send reusable AI prompts as local Markdown/YAML files with {{variables}}."
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Asdale Dynamics, LLC"}]
+keywords = ["prompts", "cli", "ollama", "openai", "local-ai", "markdown", "yaml"]
+
+[project.scripts]
+prompt-jar = "prompt_jar.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+prompt_jar = ["py.typed"]

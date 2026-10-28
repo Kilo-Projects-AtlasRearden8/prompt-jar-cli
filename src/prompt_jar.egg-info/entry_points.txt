@@ -1,0 +1,2 @@
+[console_scripts]
+prompt-jar = prompt_jar.cli:main
