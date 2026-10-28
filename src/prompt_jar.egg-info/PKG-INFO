@@ -1,9 +1,0 @@
-Metadata-Version: 2.4
-Name: prompt-jar
-Version: 0.1.0
-Summary: Save, tag, search, fill, and send reusable AI prompts as local Markdown/YAML files with {{variables}}.
-Author: Asdale Dynamics, LLC
-License: MIT
-Keywords: prompts,cli,ollama,openai,local-ai,markdown,yaml
-Requires-Python: >=3.9
-Description-Content-Type: text/markdown
